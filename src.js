@@ -7,7 +7,7 @@ const api = new GhostContentAPI({
     version: "v5.0"
 });
 
-api.posts.browse({limit: 2})
+api.posts.browse({limit: 2, include: 'tags,authors'})
 .then((posts) => {
     posts.forEach((post) => {
         let json = {"title": post.title, "url": post.url, "date": post.created_at}

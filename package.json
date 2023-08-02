@@ -2,6 +2,7 @@
   "dependencies": {
     "@notionhq/client": "^2.2.6",
     "@tryghost/content-api": "^1.11.13",
-    "dotenv": "^16.3.1"
+    "dotenv": "^16.3.1",
+    "html-to-notion": "github:baptisteArno/html-to-notion"
   }
 }
